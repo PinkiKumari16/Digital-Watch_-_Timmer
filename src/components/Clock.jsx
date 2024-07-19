@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import digitalWatch from '/Google Photos.jpeg';
 export const Clock = () => {
     let [time, setTime] = useState(new Date())
 
@@ -17,10 +17,10 @@ export const Clock = () => {
 
   return (
     <>
-        <div className='watchBox'>
+        <h1 className='digitalText'>Digital Watch</h1><br></br>
+        <div className='watchBox' style={{backgroundImage: `url(${digitalWatch})`}}>
             <div className='time'>
-                <h1>Digital Watch</h1><br></br>
-                <h1>{formateDate}</h1>
+                <h1 className='currentDate'>{formateDate}</h1>
             </div>
         </div>
     </>
