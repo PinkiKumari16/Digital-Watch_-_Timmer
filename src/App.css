@@ -141,3 +141,110 @@ button{
   color: #f54905;
   border: 2px solid #f54905;
 }
+
+@media (max-width: 1024px) {
+  .watchBox, .stopWatch {
+    height: 28rem;
+    width: 45vw;
+    margin: 5rem 1rem;
+  }
+  /* .stopWatch {
+    top: 1rem;
+    right: 0;
+  } */
+  .stopWatch h1 {
+    margin-top: 8rem;
+    font-size: 2.5rem;
+  }
+  .time {
+    margin-top: 10.5rem;
+  }
+  .currentDate {
+    font-size: 2.5rem;
+  }
+  .digitalText, .timmer {
+    font-size: 2.5rem;
+    top: 1.5rem;
+    left: 8rem;
+    /* right: auto; */
+    text-align: center;
+  }
+  .timmer{
+    right: -26rem;
+  }
+  .timeRecords {
+    top: 30rem;
+    left: 26rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .listBox {
+    width: 22rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5rem;
+  }
+}
+
+/* Mobile (portrait and landscape) */
+@media (max-width: 380px) {
+  .watchBox, .stopWatch {
+    height: 13rem;
+    width: 55vw;
+    margin: 2rem 4rem 0 5rem;
+  }
+  .stopWatch {
+    top: 17rem;
+    left: 0.01rem;
+  }
+  .stopWatch h1 {
+    margin-top: 5rem;
+    font-size: 1.8rem;
+  }
+  .time {
+    margin-top: 3.6rem;
+  }
+  .currentDate {
+    font-size: 1.3rem;
+  }
+  .digitalText, .timmer {
+    font-size: 1.5rem;
+    top: 1rem;
+    left: 7rem;
+    right: auto;
+    text-align: center;
+  }
+  .timmer{
+    top: 16.6rem;
+    left: 9rem;
+  }
+  .timeRecords {
+    top: 32.5rem;
+    left: 7.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .buttons{
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+  }
+  button{
+    padding: 0.3em;
+    font-size: 0.5em;
+  }
+  .listBox {
+    width: 18rem;
+    margin-top: 18.5rem;
+    padding: 0;
+  }
+  .timeList{
+    padding: 0.1rem 0.4rem 0 0.5rem;
+    font-size: 0.6rem;
+  }
+  .crossBtn{
+    font-size: 1rem;
+  }
+  .recoadButton{
+    margin-top: 0.6rem;
+  }
+}
