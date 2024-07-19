@@ -49,26 +49,38 @@ export const StopWatch = () => {
     const showTime = () =>{
         const timming = `${hour < 10 ? '0' : ''}${hour} : ${min < 10 ? '0' : ''}${min} : ${sec < 10 ? '0' : ''}${sec}`;
         setTimeArray([...timeArray, timming]);
-        // console.log(timming);
-        // console.log("******************", timeArray);
-
-        
     }
+    const deleteRecord = (record) =>{
+        setTimeArray(timeArray.filter((ele)=> ele !== record))
+    } 
     
   return (
     <>
+        <h1 className='timeRecords'><u>Time Records</u></h1>
+        <h1 className='timmer'>Timmer</h1>
         <div className='stopWatch'>
             <h1>
                 {hour<10 && 0}{hour} : {min<10 && 0}{min} : {sec<10 && 0}{sec}
             </h1>
             <div className='buttons'>
-                <button onClick={reStart}>Re-Start</button>
-                <button onClick={stop}>Stop</button>
-                <button onClick={start}>Start</button>
+                <button onClick={reStart} id='restart'>Re-Start</button>
+                <button onClick={stop} id='stop'>Stop</button>
+                <button onClick={start} id='start'>Start</button>
             </div>
-            <button className='recoadButton' onClick={showTime}>Recoad Time</button>
+            <button 
+                className='recoadButton' 
+                onClick={showTime}
+            >Recoad Time</button>
         </div>
-        {timeArray.map((ele)=><TimeBox key={ele} recordTime={ele}/>)}
+        <div className='listBox'>
+            {timeArray.map((ele)=>
+                <TimeBox 
+                    recordTime={ele} 
+                    deleteRecord={deleteRecord} 
+                    key={ele}
+                />
+            )}
+        </div>
     </>
   )
 }
