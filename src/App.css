@@ -431,6 +431,24 @@ button{
   }
 }
 
+@media (max-width: 400px) {
+  .watchBox, .stopWatch {
+    height: 14rem;
+    width: 58vw;
+    margin: 1.5rem 0 0 5rem;
+  }
+  .digitalText{
+    left: 8rem;
+  } 
+  .timmer{
+    left: 9rem;
+  }
+  .timeRecords {
+    left: 8rem;
+  }
+
+}
+
 /* Mobile (portrait and landscape) */
 @media (max-width: 375px) {
   .watchBox, .stopWatch {
@@ -494,23 +512,6 @@ button{
   }
 }
 
-@media (max-width: 400px) {
-  .watchBox, .stopWatch {
-    height: 14rem;
-    width: 55vw;
-    margin: 1.5rem 0 0 5rem;
-  }
-  .digitalText{
-    left: 8rem;
-  } 
-  .timmer{
-    left: 9rem;
-  }
-  .timeRecords {
-    left: 8rem;
-  }
-
-}
 
 @media (max-width: 320px) {
   .watchBox, .stopWatch {
