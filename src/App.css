@@ -142,16 +142,95 @@ button{
   border: 2px solid #f54905;
 }
 
+
+/* Responsive for Large laptop screen size. */
+@media (max-width: 2560px) {
+  .watchBox, .stopWatch {
+    height: 45rem;
+    width: 28vw;
+    margin: 8rem 4rem;
+  }
+  .stopWatch h1 {
+    margin-top: 15rem;
+    font-size: 5rem;
+  }
+  .time {
+    margin-top: 18rem;
+  }
+  .currentDate {
+    font-size: 4rem;
+  }
+  .timmer{
+    right: 19rem;
+  } 
+  .timeRecords {
+    top: 5rem;
+    left: 70rem;
+  }
+  button{
+    padding: 0.6em;
+    font-size: 2em;
+  }
+  .listBox {
+    width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50rem;
+    font-size: 1.9rem;
+  }
+}
+
+
+/* Responsive for medium laptop screen size. */
+@media (max-width: 1440px) {
+  .watchBox, .stopWatch {
+    height: 28rem;
+    width: 31vw;
+    margin: 5rem 1rem;
+  }
+  .stopWatch h1 {
+    margin-top: 9rem;
+    font-size: 3rem;
+  }
+  .time {
+    margin-top: 10.5rem;
+  }
+  .currentDate {
+    font-size: 2.5rem;
+  }
+  .digitalText, .timmer {
+    font-size: 2.5rem;
+    top: 1.5rem;
+    left: 8rem;
+    text-align: center;
+  }
+  .timmer{
+    right: -54rem;
+  }
+  .timeRecords {
+    left: 40rem;
+    font-size: 2rem;
+  }
+  button{
+    padding: 0.3em;
+    font-size: 1.3em;
+  }
+  .listBox {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30rem;
+    font-size: 1rem;
+  }
+}
+
+/* responsive for small laptop */
 @media (max-width: 1024px) {
   .watchBox, .stopWatch {
     height: 28rem;
     width: 45vw;
     margin: 5rem 1rem;
   }
-  /* .stopWatch {
-    top: 1rem;
-    right: 0;
-  } */
   .stopWatch h1 {
     margin-top: 8rem;
     font-size: 2.5rem;
@@ -166,7 +245,6 @@ button{
     font-size: 2.5rem;
     top: 1.5rem;
     left: 8rem;
-    /* right: auto; */
     text-align: center;
   }
   .timmer{
@@ -186,8 +264,118 @@ button{
   }
 }
 
+/* responsive for tab */
+@media (max-width: 768px) {
+  .watchBox, .stopWatch {
+    height: 20rem;
+    width: 42vw;
+  }
+  .stopWatch h1 {
+    font-size: 2.5rem;
+  }
+  .time {
+    margin-top: 7rem;
+  }
+  .currentDate {
+    font-size: 2rem;
+  }
+  .digitalText, .timmer {
+    font-size: 2.5rem;
+    top: 1.5rem;
+    left: 4rem;
+  }
+  .timeRecords {
+    top: 25rem;
+    left: 19rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .buttons{
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+  }
+  button{
+    padding: 0.3em;
+    font-size: 1em;
+  }
+  .recoadButton{
+    margin-top: 0.6rem;
+  }
+  .listBox {
+    width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3rem;
+    font-size: 1rem;
+  }
+}
+
+
+/* large mobile size */
+@media (max-width: 425px) { 
+  .watchBox, .stopWatch {
+    height: 13rem;
+    width: 50vw;
+    margin: 2rem 4rem 0 7rem;
+  }
+  .stopWatch {
+    top: 17rem;
+    left: 0.01rem;
+  }
+  .stopWatch h1 {
+    margin-top: 5rem;
+    font-size: 1.8rem;
+  }
+  .time {
+    margin-top: 3.6rem;
+  }
+  .currentDate {
+    font-size: 1.3rem;
+  }
+  .digitalText, .timmer {
+    font-size: 1.5rem;
+    top: 1rem;
+    left: 9rem;
+    right: auto;
+    text-align: center;
+  }
+  .timmer{
+    top: 16.6rem;
+    left: 11rem;
+  }
+  .timeRecords {
+    top: 32.5rem;
+    left: 9rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .buttons{
+    gap: 0.4rem;
+    margin-top: 0.3rem;
+  }
+  button{
+    padding: 0.3em;
+    font-size: 0.5em;
+  }
+  .listBox {
+    width: 18rem;
+    margin-top: 18.5rem;
+    padding: 0;
+  }
+  .timeList{
+    padding: 0.1rem 0.4rem 0 0.5rem;
+    font-size: 0.6rem;
+  }
+  .crossBtn{
+    font-size: 1rem;
+  }
+  .recoadButton{
+    margin-top: 0.6rem;
+  }
+}
+
 /* Mobile (portrait and landscape) */
-@media (max-width: 380px) {
+@media (max-width: 375px) {
   .watchBox, .stopWatch {
     height: 13rem;
     width: 55vw;
