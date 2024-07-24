@@ -434,7 +434,7 @@ button{
 @media (max-width: 400px) {
   .watchBox, .stopWatch {
     height: 14rem;
-    width: 58vw;
+    width: 61vw;
     margin: 1.5rem 0 0 5rem;
   }
   .digitalText{
