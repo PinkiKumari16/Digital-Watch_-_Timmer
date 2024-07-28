@@ -417,7 +417,7 @@ button{
   }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .watchBox, .stopWatch {
     height: 14rem;
     width: 62vw;
@@ -433,7 +433,7 @@ button{
     left: 8rem;
   }
 
-}
+} */
 
 /* Mobile (portrait and landscape) */
 @media (max-width: 375px) {
