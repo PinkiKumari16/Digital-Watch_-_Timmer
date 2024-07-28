@@ -417,29 +417,11 @@ button{
   }
 }
 
-/* @media (max-width: 400px) {
-  .watchBox, .stopWatch {
-    height: 14rem;
-    width: 62vw;
-    margin: 1.5rem 0 0 5rem;
-  }
-  .digitalText{
-    left: 8rem;
-  } 
-  .timmer{
-    left: 9rem;
-  }
-  .timeRecords {
-    left: 8rem;
-  }
-
-} */
-
 /* Mobile (portrait and landscape) */
 @media (max-width: 375px) {
   .watchBox, .stopWatch {
     height: 13rem;
-    width: 55vw;
+    width: 58vw;
     margin: 2rem 4rem 0 5rem;
   }
   .stopWatch {
