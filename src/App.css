@@ -54,13 +54,13 @@
   right:-1rem;
 }
 .stopWatch h1{
-  margin-top: 13rem;
+  margin-top: 35%;
   font-size: 3rem;
 }
 .time{
-  padding: 2rem;
-  margin-top: 14rem;
+  /* padding: 2rem; */
   justify-items: center;
+  margin-top: 45%;
 }
 .currentDate{
   font-size: 3.4rem;
@@ -161,12 +161,12 @@ button{
     margin: 8rem 4rem;
   }
   .stopWatch h1 {
-    margin-top: 15rem;
+    margin-top: 35%;
     font-size: 5rem;
   }
-  .time {
-    margin-top: 18rem;
-  }
+  /* .time {
+    margin-top: 45%;
+  } */
   .currentDate {
     font-size: 4rem;
   }
@@ -201,14 +201,15 @@ button{
     font-size: 1.5em;
   }
   .stopWatch h1 {
-    margin-top: 12rem;
+    margin-top: 35%;
     font-size: 4rem;
   }
   .time {
-    margin-top: 12rem;
+    margin-top: 45%;
   }
   .currentDate {
     font-size: 3rem;
+    margin-top: 1.4rem;
   }
   .digitalText, .timmer {
     font-size: 3rem;
@@ -245,11 +246,7 @@ button{
     margin: 5rem 1rem;
   }
   .stopWatch h1 {
-    margin-top: 9rem;
     font-size: 3rem;
-  }
-  .time {
-    margin-top: 10.5rem;
   }
   .currentDate {
     font-size: 2.5rem;
@@ -289,11 +286,7 @@ button{
     margin: 5rem 1rem;
   }
   .stopWatch h1 {
-    margin-top: 8rem;
     font-size: 2.5rem;
-  }
-  .time {
-    margin-top: 10.5rem;
   }
   .currentDate {
     font-size: 2.5rem;
@@ -330,9 +323,6 @@ button{
   .stopWatch h1 {
     font-size: 2.5rem;
   }
-  .time {
-    margin-top: 7rem;
-  }
   .currentDate {
     font-size: 2rem;
   }
@@ -342,7 +332,7 @@ button{
     left: 4rem;
   }
   .timeRecords {
-    top: 25rem;
+    top: 23rem;
     left: 19rem;
     font-size: 2rem;
     text-align: center;
@@ -380,11 +370,7 @@ button{
     left: 0.01rem;
   }
   .stopWatch h1 {
-    margin-top: 5rem;
     font-size: 1.8rem;
-  }
-  .time {
-    margin-top: 3.6rem;
   }
   .currentDate {
     font-size: 1.3rem;
@@ -434,7 +420,7 @@ button{
 @media (max-width: 400px) {
   .watchBox, .stopWatch {
     height: 14rem;
-    width: 61vw;
+    width: 60vw;
     margin: 1.5rem 0 0 5rem;
   }
   .digitalText{
@@ -461,11 +447,7 @@ button{
     left: 0.01rem;
   }
   .stopWatch h1 {
-    margin-top: 5rem;
     font-size: 1.8rem;
-  }
-  .time {
-    margin-top: 3.6rem;
   }
   .currentDate {
     font-size: 1.3rem;
@@ -523,11 +505,7 @@ button{
     margin: 0.5rem 0 0 4rem;
   }
   .stopWatch h1 {
-    margin-top: 4rem;
     font-size: 1.4rem;
-  }
-  .time {
-    margin-top: 2.8rem;
   }
   .currentDate {
     font-size: 1rem;
